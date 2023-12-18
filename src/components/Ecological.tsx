@@ -11,7 +11,7 @@ export default function Ecological() {
             <div className=" text-gray-400 text-base leading-7 ">
                 <p className="lead text-2xl text-[#FF7841]">Participate by pledging TMP1</p>
 
-                <div className="mt-8">Any SATOSEED account can participate
+                <div className="mt-8">Any PATH account can participate
                     in the Super Node by pledging TMP1 to
                     receive base rewards.<br/><br/>
                     Payment node: obtain credit line by

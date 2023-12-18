@@ -10,7 +10,7 @@ export default function Labs() {
             </header>
             <div className=" text-gray-400 text-base leading-7 ">
                
-                <div className="mt-8">Build ecological nodes, deploy invested/incubated projects on SATOSEED, share BTC's largest ecological community
+                <div className="mt-8">Build ecological nodes, deploy invested/incubated projects on PATH, share BTC's largest ecological community
 traffic, and obtain node income through contract transactions.</div>
 
 

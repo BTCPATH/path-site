@@ -12,12 +12,12 @@ export default function Community() {
                 <p className="lead text-2xl text-[#FF7841]">Participate in the airdrop
                     collection with the inscription MINT</p>
 
-                <div className="mt-8">SATOSEED will inscribe the inscription TMP0
+                <div className="mt-8">PATH will inscribe the inscription TMP0
                     under the Ordinals protocol, and any
                     community can participate in MINT it.<br/><br/>  TMP0
-                    can be exchanged for TMP1 (SATOSEED
-                    main Network token) at Layer2 (SATOSEED)
-                    through the SATOSEED exchange channel.<br/><br/> At
+                    can be exchanged for TMP1 (PATH
+                    main Network token) at Layer2 (PATH)
+                    through the PATH exchange channel.<br/><br/> At
                     the same time, the token will also map 1:1 to
                     the corresponding inscription on the Ordinals
                     protocol, and there will be different exchange

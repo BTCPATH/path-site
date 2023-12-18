@@ -13,7 +13,7 @@ export default function Pow() {
 
                 <div className="mt-8">PoW is mainly based on CPU computing
 power, miners can pledge TMP1
-(SATOSEED main network token), and
+(PATH main network token), and
 contribute computing power to participate
 in mining, and the income is settled by
 TMP0 as a block reward, and the GAS fee
