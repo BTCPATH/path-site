@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import logo from './img/logo.png';
 import DiffIcon from './img/diff.jpg';
 import twitter from './img/twitter.png';
+import github from './img/github.png';
 import './App.css';
 import { Outlet, useLocation } from "react-router";
 import { slide as Menu } from 'react-burger-menu';
@@ -53,6 +54,9 @@ function App() {
         <div className="relative flex basis-0 justify-end gap-6 flex-grow">
           <a href='https://twitter.com/PATH_BTC_L2' target='_blank'>
             <img className='w-7 h-7 hover:scale-105' src={twitter} />
+          </a>
+          <a href='https://github.com/pathbtc' target='_blank'>
+            <img className='w-7 h-7 hover:scale-105' src={github} />
           </a>
         </div>
       </header>
