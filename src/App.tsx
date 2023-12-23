@@ -72,7 +72,7 @@ function App() {
                 <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                   <a className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href="/#/community">How to Join</a>
 
-                  <a target='_blank' className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href={'https://www.pathbtc.com/PATH_whitepaper_1.pdf'}>White Paper</a>
+                  <a target='_blank' className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href={'https://www.pathbtc.com/PATH_whitepaper_2.pdf'}>White Paper</a>
 
                 </div>
               </div>
