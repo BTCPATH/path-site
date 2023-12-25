@@ -52,7 +52,7 @@ function App() {
           <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH</span></a>
         </div>
         <div className="relative flex basis-0 justify-end gap-6 flex-grow">
-          <a href='https://twitter.com/PATH_BTC_L2' target='_blank'>
+          <a href='https://twitter.com/PATH_Protocol' target='_blank'>
             <img className='w-7 h-7 hover:scale-105' src={twitter} />
           </a>
           <a href='https://github.com/pathbtc' target='_blank'>
