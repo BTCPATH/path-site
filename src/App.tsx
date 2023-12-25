@@ -67,8 +67,7 @@ function App() {
               {/* <img alt="" src={blurCyan} width="530" height="530" decoding="async" data-nimg="1" className="absolute bottom-full right-full -mr-72 -mb-56 opacity-50 text-transparent" /> */}
               <div className="relative leading-10">
                 <p className="inline bg-gradient-to-r from-amber-500 via-[#FF7841] to-amber-500  bg-clip-text font-display text-5xl tracking-tight text-transparent">PATH - Layer2 on BTC for web3</p>
-                <p className="mt-3 text-2xl tracking-tight leading-10 text-slate-400">UTXO + Turing Complete Smart contract + PoW + Super Ecological Node +
-                  Lightning network compatibility</p>
+                <p className="mt-3 text-2xl tracking-tight leading-10 text-slate-400">DePin/PoW+ Lightning network compatibility + Turing Complete Smart contract + Super Ecological Node + UTXO</p>
                 <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                   <a className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href="/#/community">How to Join</a>
 

@@ -10,8 +10,7 @@ export default function What() {
             </header>
             <div className=" text-gray-400 text-base leading-7 ">
                 <p className="lead text-2xl text-[#FF7841]">PATH - Layer2 on BTC for web3 </p>
-                <div className="mt-2">UTXO + Turing Complete Smart contract + PoW + Super Ecological Node +
-                    Lightning network compatibility</div>
+                <div className="mt-2">DePin/PoW+ Lightning network compatibility + Turing Complete Smart contract + Super Ecological Node + UTXO</div>
 
 
                 <div className="text-[#FF7841] text-lg mt-10">UTXO + Turing-complete smart contract, compatible with EVM</div>
