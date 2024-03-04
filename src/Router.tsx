@@ -22,7 +22,7 @@ export default function Router() {
                 <Route path="community" element={<Community />} />
                 <Route path="pow" element={<Pow />} />
                 <Route path="ecological" element={<Ecological />} />
-                <Route path="holders" element={<Holders />} />
+                <Route path="partner" element={<Holders />} />
                 <Route path="start" element={<What />} />
                 <Route path="labs" element={<Labs />} />
             </Route>
