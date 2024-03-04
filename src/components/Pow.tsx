@@ -5,11 +5,11 @@ export default function Pow() {
     return <>
         <article>
             <header className="mb-9 space-y-1">
-                <p className="font-display text-sm font-medium text-[#FF7841]">How to Join</p>
+                <p className="font-display text-sm font-medium text-[#FF8D00]">How to Join</p>
                 <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">PoW miners</h1>
             </header>
             <div className=" text-gray-400 text-base leading-7 ">
-                <p className="lead text-2xl text-[#FF7841]">Mining by pledging TMP1</p>
+                <p className="lead text-2xl text-[#FF8D00]">Mining by pledging TMP1</p>
 
                 <div className="mt-8">PoW is mainly based on CPU computing
 power, miners can pledge TMP1

@@ -17,7 +17,7 @@ module.exports = {
                 webpackConfig.devtool = false;
             }
 
-            webpackConfig.output.path = path.resolve(__dirname, 'docs');
+            // webpackConfig.output.path = path.resolve(__dirname, 'docs');
             webpackConfig.output.filename = `static/js/[name].[hash:8]-${version}.js`;
             webpackConfig.output.chunkFilename = `static/js/[name].[hash:8]-${version}.js`;
 

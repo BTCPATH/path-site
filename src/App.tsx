@@ -1,8 +1,9 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import logo from './img/logo.png';
-import DiffIcon from './img/diff.jpg';
+import DiffIcon from './img/diff.png';
 import twitter from './img/twitter.png';
 import github from './img/github.png';
+import telegram from './img/telegram.png';
 import './App.css';
 import { Outlet, useLocation } from "react-router";
 import { slide as Menu } from 'react-burger-menu';
@@ -39,7 +40,7 @@ function App() {
 
       <header className="sticky top-0 z-50 backdrop-blur-md flex flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8 dark:bg-transparent">
         <div className="mr-6 flex lg:hidden">
-          <button onClick={()=>{
+          <button onClick={() => {
             setIsOpen(true)
           }} type="button" className="relative" aria-label="Open navigation">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" className="h-6 w-6 stroke-slate-500">
@@ -49,15 +50,19 @@ function App() {
         </div>
         <div className="relative flex flex-grow basis-0 items-center">
 
-          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH</span></a>
+          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH Protocol</span></a>
         </div>
         <div className="relative flex basis-0 justify-end gap-6 flex-grow">
           <a href='https://twitter.com/PATH_Protocol' target='_blank'>
             <img className='w-7 h-7 hover:scale-105' src={twitter} />
           </a>
+          <a href='https://t.me/PATH_Protocol' target='_blank'>
+            <img className='w-7 h-7 hover:scale-105' src={telegram} />
+          </a>
           <a href='https://github.com/pathbtc' target='_blank'>
             <img className='w-7 h-7 hover:scale-105' src={github} />
           </a>
+          
         </div>
       </header>
       {pathname == "/" && <div className="overflow-hidden  dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
@@ -66,19 +71,25 @@ function App() {
             <div className="relative z-10 md:text-center lg:text-left ">
               {/* <img alt="" src={blurCyan} width="530" height="530" decoding="async" data-nimg="1" className="absolute bottom-full right-full -mr-72 -mb-56 opacity-50 text-transparent" /> */}
               <div className="relative leading-10">
-                <p className="inline bg-gradient-to-r from-amber-500 via-[#FF7841] to-amber-500  bg-clip-text font-display text-5xl tracking-tight text-transparent">PATH - Layer2 on BTC for web3</p>
-                <p className="mt-3 text-2xl tracking-tight leading-10 text-slate-400">DePin/PoW+ Lightning network compatibility + Turing Complete Smart contract + Super Ecological Node + UTXO</p>
-                <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                  <a className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href="/#/community">How to Join</a>
+                <p className="inline bg-gradient-to-r font-bold from-amber-500 via-[#FF8D00] to-amber-500  bg-clip-text font-display text-4xl tracking-tight text-transparent">PATH PROTOCOL-Full chain ecological routing network</p>
+                <div className="mt-3 text-base tracking-tight leading-10 text-slate-400">
+               
+                  <span className='text-[#FF8D00]'>▶ </span>Cross-chain liquidity aggregation for all layers assets of the full-chain<br />
+                  <span className='text-[#FF8D00]'>▶ </span>Infinitely scalable BTC Layer2 network infrastructure<br />
+                  <span className='text-[#FF8D00]'>▶ </span>Supports customized and highly available eco-subchain<br />
 
-                  <a target='_blank' className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF7841]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF7841]" href={'https://www.pathbtc.com/PATH_whitepaper_2.pdf'}>White Paper</a>
+                </div>
+                <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
+                  <a className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF8D00]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF8D00]" href="/#/community">How to Join</a>
+
+                  <a target='_blank' className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF8D00]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF8D00]" href={'https://www.pathbtc.com/PATH_whitepaper_3.pdf'}>White Paper</a>
 
                 </div>
               </div>
             </div>
             <div className='flex items-center justify-center'>
-              <img style={{width:530,height:330}} className="w-4/5 " src={DiffIcon} />
-              
+              <img style={{ width: 530, height: 330 }} className="w-4/5 " src={DiffIcon} />
+
             </div>
           </div>
         </div>
