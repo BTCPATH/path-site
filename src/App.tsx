@@ -1,13 +1,26 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import logo from './img/logo.png';
 import DiffIcon from './img/diff.png';
+import Icon5 from './img/5.jpg';
+import Icon6 from './img/6.jpg';
+import Icon7 from './img/7.jpg';
 import twitter from './img/twitter.png';
 import github from './img/github.png';
 import telegram from './img/telegram.png';
-import './App.css';
+
 import { Outlet, useLocation } from "react-router";
 import { slide as Menu } from 'react-burger-menu';
 import MenuUi from './components/MenuUi';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+// Import Swiper styles
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+import 'swiper/css';
+import './App.css';
+
 
 function App() {
 
@@ -15,6 +28,7 @@ function App() {
   const pathname = location.pathname;
   const [darkMode, setDarkMode] = useState(true);
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const list = [Icon5,Icon6,Icon7]
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -50,19 +64,19 @@ function App() {
         </div>
         <div className="relative flex flex-grow basis-0 items-center">
 
-          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH Protocol</span></a>
+          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-base font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH Protocol</span></a>
         </div>
         <div className="relative flex basis-0 justify-end gap-6 flex-grow">
           <a href='https://twitter.com/PATH_Protocol' target='_blank'>
-            <img className='w-7 h-7 hover:scale-105' src={twitter} />
+            <img className='w-6 h-6 md:w-7 md:h-7 hover:scale-105' src={twitter} />
           </a>
           <a href='https://t.me/PATH_Protocol' target='_blank'>
-            <img className='w-7 h-7 hover:scale-105' src={telegram} />
+            <img className='w-6 h-6 md:w-7 md:h-7 hover:scale-105' src={telegram} />
           </a>
           <a href='https://github.com/pathbtc' target='_blank'>
-            <img className='w-7 h-7 hover:scale-105' src={github} />
+            <img className='w-6 h-6 md:w-7 md:h-7 hover:scale-105' src={github} />
           </a>
-          
+
         </div>
       </header>
       {pathname == "/" && <div className="overflow-hidden  dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
@@ -73,7 +87,7 @@ function App() {
               <div className="relative leading-10">
                 <p className="inline bg-gradient-to-r font-bold from-amber-500 via-[#FF8D00] to-amber-500  bg-clip-text font-display text-4xl tracking-tight text-transparent">PATH PROTOCOL-Full chain ecological routing network</p>
                 <div className="mt-3 text-base tracking-tight leading-10 text-slate-400">
-               
+
                   <span className='text-[#FF8D00]'>▶ </span>Cross-chain liquidity aggregation for all layers assets of the full-chain<br />
                   <span className='text-[#FF8D00]'>▶ </span>Infinitely scalable BTC Layer2 network infrastructure<br />
                   <span className='text-[#FF8D00]'>▶ </span>Supports customized and highly available eco-subchain<br />
@@ -88,7 +102,27 @@ function App() {
               </div>
             </div>
             <div className='flex items-center justify-center'>
-              <img style={{ width: 530, height: 330 }} className="w-4/5 " src={DiffIcon} />
+              <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                spaceBetween={0}
+                loop
+                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                className="object-cover"
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper: any) => console.log(swiper)}
+              >
+                {
+                  list.map((item: any, index: number) => {
+                    return <SwiperSlide key={index}>
+                      <img className=' cursor-pointer object-cover h-banner' style={{ width: '100%' }} src={item} />
+                    </SwiperSlide>
+                  })
+                }
+
+              </Swiper>
+              {/* <img style={{ width: 530, height: 330 }} className="w-4/5 " src={DiffIcon} /> */}
 
             </div>
           </div>

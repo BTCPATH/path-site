@@ -48,7 +48,7 @@ export default function What() {
                 </div>
             </div>
 
-            <h1 className="font-display text-3xl mt-10 tracking-tight text-slate-900 dark:text-white">Roadmap</h1>
+           
         </article>
     </>
 }

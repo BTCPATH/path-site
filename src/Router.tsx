@@ -8,6 +8,7 @@ import Pow from './components/Pow';
 import Ecological from './components/Ecological';
 import Holders from './components/Holders';
 import Labs from './components/Labs';
+import Roadmap from './components/Roadmap';
 
 export default function Router() {
 
@@ -17,6 +18,7 @@ export default function Router() {
             <Route path='/' element={<App />} >
                 <Route path="/" element={<What />} />
                 <Route path="start" element={<What />} />
+                <Route path="roadmap" element={<Roadmap />} />
                 <Route path="community" element={<Community />} />
                 <Route path="pow" element={<Pow />} />
                 <Route path="ecological" element={<Ecological />} />

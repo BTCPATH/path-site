@@ -10,7 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/react-burger-menu": "^3.0.9",
+    "@types/react-burger-menu": "^2.8.7",
     "@types/node": "^16.18.60",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
@@ -29,6 +29,7 @@
     "tailwindcss": "^3.2.7",
     "typeit-react": "^2.6.4",
     "typescript": "^4.9.5",
+    "swiper": "^10.3.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "web-vitals": "^2.1.4",
     "webpack-bundle-analyzer": "^4.5.0"
