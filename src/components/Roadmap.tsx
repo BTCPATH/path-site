@@ -24,7 +24,7 @@ export default function Roadmap() {
 
                 <li className="relative"><a className={`block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-[18px] before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full   ${true ? 'text-[#FF8D00] font-bold before:bg-[#FF8D00] hover:text-[#FF8D00] dark:hover:text-[#FF8D00] dark:before:bg-[#FF8D00]' : 'text-slate-500 before:bg-slate-300 hover:text-slate-600 dark:hover:text-slate-300 before:hidden dark:before:bg-slate-700'} hover:before:block  `}>
                 <div className="border border-gray-800 p-2 rounded-md">
-                    <div className="text-[#FF8D00]">Apr.2024: BetaNet Launch</div>
+                    <div className="text-[#FF8D00]">Apr. 2024: BetaNet Launch</div>
                     <div className="mt-3 font-normal text-gray-400">
                         Open the PATH Bridge Node to set up and start cross-chain verification
                         Support more major blockchain assets to pledge across chains
@@ -36,7 +36,7 @@ export default function Roadmap() {
 
                 <li className="relative"><a className={`block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-[18px] before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full   ${true ? 'text-[#FF8D00] font-bold before:bg-[#FF8D00] hover:text-[#FF8D00] dark:hover:text-[#FF8D00] dark:before:bg-[#FF8D00]' : 'text-slate-500 before:bg-slate-300 hover:text-slate-600 dark:hover:text-slate-300 before:hidden dark:before:bg-slate-700'} hover:before:block  `}>
                 <div className="border border-gray-800 p-2 rounded-md">
-                    <div className="text-[#FF8D00]">June,2024: MainNet Launch</div>
+                    <div className="text-[#FF8D00]">Jun. 2024: MainNet Launch</div>
                     <div className="mt-3 font-normal text-gray-400">
                         Airdropped points will be exchanged for mainnet tokens
                         Activate cross-chain verification rewards
