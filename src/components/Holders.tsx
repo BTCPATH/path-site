@@ -33,7 +33,7 @@ export default function Holders() {
                         <img className=' ' src={iGS} />
 
                     </a>
-                    <a href='https://ic1101.world' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
+                    <a href='https://space.ic1101.world' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
                         <img className=' ' src={IC1101} />
                         {/* IC1101 */}
                     </a>

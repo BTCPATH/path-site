@@ -4,7 +4,7 @@ const path = require('path');
 const directoryPath = path.join(__dirname, 'src/img');
 const componentList = [];
 
-//generateImageImport
+//generateImageImport => node ./generateImageImports.js
 
 fs.readdir(directoryPath, function (err, files) {
   if (err) {
