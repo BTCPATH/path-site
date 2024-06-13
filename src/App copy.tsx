@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import logo from './img/logo.png';
 import DiffIcon from './img/diff.png';
-import Icon5 from './img/banner1.jpg';
+import Icon5 from './img/5.jpg';
 import Icon6 from './img/6.jpg';
 import Icon7 from './img/7.jpg';
 import twitter from './img/twitter.png';
@@ -28,7 +28,7 @@ function App() {
   const pathname = location.pathname;
   const [darkMode, setDarkMode] = useState(true);
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const list = [Icon5]
+  const list = [Icon5,Icon6,Icon7]
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -36,7 +36,6 @@ function App() {
 
   useEffect(() => {
     console.log("pathname==", pathname)
-    setIsOpen(false)
   }, [pathname])
 
   const handleStateChange = (state: any) => {
@@ -65,7 +64,7 @@ function App() {
         </div>
         <div className="relative flex flex-grow basis-0 items-center">
 
-          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-sm font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH BTC</span></a>
+          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-sm font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH Protocol</span></a>
         </div>
         <div className="relative flex basis-0 justify-end gap-4 md:gap-6 flex-grow">
           <a href='https://twitter.com/PATH_Protocol' target='_blank'>
@@ -86,19 +85,18 @@ function App() {
             <div className="relative z-10 md:text-center lg:text-left ">
               {/* <img alt="" src={blurCyan} width="530" height="530" decoding="async" data-nimg="1" className="absolute bottom-full right-full -mr-72 -mb-56 opacity-50 text-transparent" /> */}
               <div className="relative leading-10">
-                <p className="inline bg-gradient-to-r font-bold from-amber-500 via-[#FF8D00] to-amber-500  bg-clip-text font-display text-4xl tracking-tight text-transparent">PATH-BTC<br/> Activate the liquidity of long-term held Bitcoin</p>
+                <p className="inline bg-gradient-to-r font-bold from-amber-500 via-[#FF8D00] to-amber-500  bg-clip-text font-display text-4xl tracking-tight text-transparent">PATH PROTOCOL-Full chain ecological routing network</p>
                 <div className="mt-3 text-base tracking-tight leading-10 text-slate-400">
 
-                  <span className='text-[#FF8D00]'>▶ </span>Proof of liquidity efficiency (POLE)<br />
-                  <span className='text-[#FF8D00]'>▶ </span>Reward engine<br />
-                  <span className='text-[#FF8D00]'>▶ </span>Governance engine<br />
-                  <span className='text-[#FF8D00]'>▶ </span>Yield engine<br />
+                  <span className='text-[#FF8D00]'>▶ </span>Cross-chain liquidity aggregation for all layers assets of the full-chain<br />
+                  <span className='text-[#FF8D00]'>▶ </span>Infinitely scalable BTC Layer2 network infrastructure<br />
+                  <span className='text-[#FF8D00]'>▶ </span>Supports customized and highly available eco-subchain<br />
 
                 </div>
                 <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <a className="rounded-full bg-gray-500 py-2 px-4 text-sm font-semibold text-black focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 " href="">Gitbook</a>
+                  <a className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF8D00]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF8D00]" href="/#/community">How to Join</a>
 
-                  <a className="rounded-full bg-gray-500 py-2 px-4 text-sm font-semibold text-black  focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 " href={''}>Start from here</a>
+                  <a target='_blank' className="rounded-full bg-amber-500 py-2 px-4 text-sm font-semibold text-black hover:bg-[#FF8D00]focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300/50 active:bg-[#FF8D00]" href={'https://www.pathbtc.com/PATH_whitepaper_3.pdf'}>White Paper</a>
 
                 </div>
               </div>

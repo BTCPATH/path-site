@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.de574081-0.1.0.js",
-    "main.css": "/static/css/main.571867d8.css",
-    "static/js/787.de574081-0.1.0.js": "/static/js/787.de574081-0.1.0.js",
-    "static/media/eco.jpg": "/static/media/eco.89eb7b939c9c23fc4603.jpg",
-    "static/media/6.jpg": "/static/media/6.e4749ced96cf0a5ce8e2.jpg",
-    "static/media/7.jpg": "/static/media/7.e3ad2443f14dadc29fd8.jpg",
-    "static/media/5.jpg": "/static/media/5.5569d11846e4d4cc536b.jpg",
+    "main.js": "/static/js/main.435f39a0-0.1.0.js",
+    "main.css": "/static/css/main.5f320a07.css",
+    "static/js/787.435f39a0-0.1.0.js": "/static/js/787.435f39a0-0.1.0.js",
+    "static/media/banner1.jpg": "/static/media/banner1.672968c0ed38df2b3c5c.jpg",
+    "static/media/agent.png": "/static/media/agent.3f19e8e39cf8c2b2e1ae.png",
+    "static/media/agent2.png": "/static/media/agent2.02f40a2598bd546c0c59.png",
+    "static/media/factor.png": "/static/media/factor.8c16ef219fcc7478b2ee.png",
+    "static/media/liquidity.png": "/static/media/liquidity.902863d7beb9977d8b44.png",
+    "static/media/reward2.png": "/static/media/reward2.e3ae38b80fbfd318eaa7.png",
+    "static/media/pole.png": "/static/media/pole.26f5730ed11822e73ee7.png",
+    "static/media/reward3.png": "/static/media/reward3.0b56d0d2b2c7503dc43d.png",
+    "static/media/reward1.png": "/static/media/reward1.61a43d82d6c219114341.png",
+    "static/media/process.png": "/static/media/process.48dfaff0855b3ffed07e.png",
     "static/media/noahswap.png": "/static/media/noahswap.d9198a21fca5e09ad9e0.png",
     "static/media/BSquared.png": "/static/media/BSquared.3f3e7b1120d21984a318.png",
     "static/media/logo.png": "/static/media/logo.aa132aa7f76ec3f5f41f.png",
@@ -19,7 +25,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/js/main.de574081-0.1.0.js",
-    "static/css/main.571867d8.css"
+    "static/js/main.435f39a0-0.1.0.js",
+    "static/css/main.5f320a07.css"
   ]
 }

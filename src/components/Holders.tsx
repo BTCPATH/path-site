@@ -20,54 +20,38 @@ export default function Holders() {
 
     return <>
         <article>
-            <header className="mb-9 space-y-1">
-                <p className="font-display text-lg font-bold text-[#FF8D00]">Ecological Partners</p>
-
+            <header className="mb-9">
+                <p className="font-display text-sm font-medium text-[#FF8D00]">The Basics</p>
+                <h1 className="font-display text-3xl font-bold mt-4 tracking-tight text-slate-900 dark:text-white">What should holders do?</h1>
             </header>
-            <div className=" text-gray-400 text-base leading-7 ">
-
-
-                <div className="grid gap-4 grid-cols-2 md:grid-cols-4 text-sm  font-bold  w-full text-gray-300 ">
-                    <a href='https://igames.world' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md w-full text-center flex flex-col items-center justify-center' >
-
-                        <img className=' ' src={iGS} />
-
-                    </a>
-                    <a href='https://space.ic1101.world' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={IC1101} />
-                        {/* IC1101 */}
-                    </a>
-                    <a href='https://www.ierc20.com' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={IERC_Protocol} />
-                        {/* IERC_Protocol */}
-                    </a>
-                    <a href='https://noahswap.io/home' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className='' src={noahswap} />
-
-                    </a>
-                    <a href='https://giveaway.com' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={giveaway} /></a>
-                    <a href='https://www.bihelix.net' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={BiHelix} /></a>
-                    <a href='https://bitsat.ai' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className='' src={bitsat} /></a>
-                    <div  className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={SOD} /></div>
-                    <a href='https://merlinchain.io' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={Merlin} /></a>
-                    <a href='https://bitmap.tech' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className='' src={Bitmap} /></a>
-                    <a href='https://tristan.land' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={Tristan} /></a>
-                    <a href='https://arc20.cc' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className=' ' src={ARC20} /></a>
-                    <a href='https://www.bsquared.network' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A]  cursor-pointer rounded-md  w-full text-center flex flex-col items-center justify-center' >
-                        <img className='' src={BSquared} /></a>
-
+            <div className=" text-gray-400 text-base leading-7 mt-10 ">
+                <div className="text-[#FF8D00] font-bold text-lg mt-2">Yield</div>
+                <div className="mt-0">
+                    <p className="font-bold mt-5 text-gray-300">STEP 1: Stake</p>
+                    ● Choose agent to stake BTC and delegate liquidity.
+                    <br />
+                    ● LPT(Liquid Principal Token) and vToken returned.<br />
+                    <p className="font-bold  mt-5 text-gray-300">STEP 2: Withdraw</p>
+                    ● Destroy LPT to withdraw assets.
+                    <br />
+                    ● Unstake BTC and YPT(Liquid Yield Token) returned.<br />
                 </div>
 
 
-            </div >
-        </article >
+                <div className="text-[#FF8D00] font-bold text-lg mt-2">Governance</div>
+                <div className="mt-0">
+                    <p className="font-bold mt-5 text-gray-300">STEP 1: Delegate</p>
+                    ● Delegate vToken to the agent and grant your governance rights.
+                    <br />
+                    <p className="font-bold  mt-5 text-gray-300">STEP 2: Cancel delegate</p>
+                    ● Cancel delegating and unlock vToken.
+                    <br />
+                </div>
+
+
+            </div>
+
+
+        </article>
     </>
 }
