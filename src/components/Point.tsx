@@ -1,4 +1,4 @@
-import DiffIcon from '../img/eco.jpg';
+import market1 from '../img/market1.png';
 
 export default function Point() {
 
@@ -10,7 +10,10 @@ export default function Point() {
                 <p className="lead mt-10 text-lg text-[#FF8D00]">BTC's market capitalization is more than three times that of ETH, but its overall ecological market size is less than 1%.
                 </p>
             </header>
-            
+            <div className='flex mt-4 justify-center items-center'>
+                    <img className="w-4/5 " src={market1} />
+
+                </div>
 
            
         </article>

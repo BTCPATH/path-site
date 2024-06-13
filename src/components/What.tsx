@@ -1,4 +1,4 @@
-import DiffIcon from '../img/eco.jpg';
+import market1 from '../img/market1.png';
 
 export default function What() {
 
@@ -11,6 +11,8 @@ export default function What() {
 
                 </p>
             </header>
+
+            
             
 
            
