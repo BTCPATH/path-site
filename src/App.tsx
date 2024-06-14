@@ -65,7 +65,7 @@ function App() {
         </div>
         <div className="relative flex flex-grow basis-0 items-center">
 
-          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-sm font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH BTC</span></a>
+          <a className='flex items-center' aria-label="Home page" href="/"><img className='w-9 h-9 mr-2' src={logo} /><span className="flex font-display text-sm font-bold text-slate-900 dark:text-sky-100 md:text-3xl">PATH-BTC</span></a>
         </div>
         <div className="relative flex basis-0 justify-end gap-4 md:gap-6 flex-grow">
           <a href='https://twitter.com/PATH_Protocol' target='_blank'>
