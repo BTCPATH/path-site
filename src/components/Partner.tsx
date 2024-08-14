@@ -14,6 +14,7 @@ import Tristan from '../img/Tristan.png';
 import ARC20 from '../img/ARC-20.png';
 import BSquared from '../img/BSquared.png';
 import Icon1 from '../img/1.png';
+import tradeOff from '../img/tradeoff.png';
 export default function Partner() {
 
 
@@ -28,6 +29,11 @@ export default function Partner() {
 
 
                 <div className="grid gap-4 grid-cols-2 md:grid-cols-4 text-sm  font-bold  w-full text-gray-300 ">
+                    <a href='https://www.tradeoff.xyz' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md w-full text-center flex flex-col items-center justify-center' >
+
+                        <img className=' ' src={tradeOff} />
+
+                    </a>
                     <a href='https://igames.world' target='_blank' className='hover:bg-[#333333] bg-[#1A1A1A] cursor-pointer rounded-md w-full text-center flex flex-col items-center justify-center' >
 
                         <img className=' ' src={iGS} />
